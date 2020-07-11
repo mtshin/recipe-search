@@ -1,4 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d8b312b4-79f2-43af-8582-030dfa7ee391/deploy-status)](https://app.netlify.com/sites/admiring-shaw-e08a52/deploys)
+
 A recipe search app bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Live Demo](https://app.netlify.com/sites/admiring-shaw-e08a52/deploys)
 
 ## Tech Used
 
