@@ -4,6 +4,8 @@ A recipe search app bootstrapped with [Create React App](https://github.com/face
 
 [Live Demo](https://app.netlify.com/sites/admiring-shaw-e08a52/deploys)
 
+![App Image](/public/recipe-search-readme-img.PNG)
+
 ## Tech Used
 
 - Javascript
