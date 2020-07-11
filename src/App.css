@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+a:hover {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line-clamp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bp3-input {
+  border-radius: 30px;
+  padding: 3px 10px;
+  box-shadow: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bp3-tag-input {
+  align-items: center;
+}
+
+.bp3-tag-input.bp3-active,
+.bp3-input:focus,
+.bp3-input.bp3-active {
+  box-shadow: none;
+}
+
+.bp3-form-helper-text {
+  margin-left: 15px;
+}
+
+.bp3-button {
+  min-height: unset;
+  color: rgb(40, 40, 40);
+}
+
+.dialog-backdrop {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.typed-cursor {
+  color: #fff;
+}
+
+.home__container {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #a8e2f7;
+}
+
+.content__container {
+  margin-top: 30vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.App-link {
-  color: #61dafb;
+.content__container._moveUp {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result__container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50px;
+  background-color: #a8e2f7;
+  transition: background-color 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.result__container._hasResults {
+  background-color: #fff;
 }
